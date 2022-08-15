@@ -91,6 +91,8 @@ In Pipeline --> Select "Pipeline script from SCM" --> Select SCM as GIT. --> Rep
 
 <img width="1173" alt="image" src="https://user-images.githubusercontent.com/74225291/184623818-b4e4ab8d-2807-459b-9199-83499fa59d7a.png">
 
-Save the job.
+Save and build the job once.
 
+
+**7. create webhook in github repo to trigger jenkins job**
 
