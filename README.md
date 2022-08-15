@@ -110,3 +110,7 @@ Now check the number of ran jobs in Jenkins before raising any new PR, For me it
 <img width="1327" alt="image" src="https://user-images.githubusercontent.com/74225291/184626709-5fedbb69-a01b-4208-9478-8a06cb47f7da.png">
 
 Now lets create new branch and raise Pull Request.
+
+Now you can see one more job is triggered and PR has one more check which is passed.
+
+<img width="1338" alt="image" src="https://user-images.githubusercontent.com/74225291/184628003-28214aca-8836-442a-aeba-6f38d03034d7.png">
