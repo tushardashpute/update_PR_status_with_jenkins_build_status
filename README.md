@@ -55,7 +55,7 @@ IF you have proceed with the installed the suggested plugins during jenkins setu
 
 **4. create secret key with the PAT generated in step 3**
 
-Goto manage jenkins --> Manage Credentials --> Add credentials
+Goto Manage jenkins --> Manage Credentials --> Add credentials
 
 ![image](https://user-images.githubusercontent.com/74225291/184621981-ec42c363-0ff3-4cc6-b789-1e3cf118465e.png)
 
@@ -66,5 +66,31 @@ Goto manage jenkins --> Manage Credentials --> Add credentials
 ![image](https://user-images.githubusercontent.com/74225291/184622058-4a4b83dd-df95-4070-9903-9746c365ad68.png)
 
 
+<img width="1410" alt="image" src="https://user-images.githubusercontent.com/74225291/184622826-93de7c16-cec7-4357-8cb8-7fa01f83c12c.png">
+
+
+**5. Configure Jenkins to access the Github Repo using the secret key**
+
+Goto Manage jenkins --> configure system
+
+<img width="1424" alt="image" src="https://user-images.githubusercontent.com/74225291/184622545-878e0603-e756-43ba-b342-a34d08ca26ab.png">
+
+**6. Create Jenkins Job**
+
+New Iteam --> Give Job Name --> Select pipeline type
+
+<img width="1337" alt="image" src="https://user-images.githubusercontent.com/74225291/184623018-70e7031b-1ee2-44ec-ab65-b904ab4b6a03.png">
+
+In Build Triggers --> select "GitHub hook trigger for GITScm polling"
+
+<img width="1016" alt="image" src="https://user-images.githubusercontent.com/74225291/184623297-a6f242be-1529-43b7-bc6e-1dfa68869868.png">
+
+In Pipeline --> Select "Pipeline script from SCM" --> Select SCM as GIT. --> Repository URL --> Give your github repo path
+ 
+<img width="1092" alt="image" src="https://user-images.githubusercontent.com/74225291/184623562-fc592dbd-94b7-4190-a963-52e9acdaf33a.png">
+
+<img width="1173" alt="image" src="https://user-images.githubusercontent.com/74225291/184623818-b4e4ab8d-2807-459b-9199-83499fa59d7a.png">
+
+Save the job.
 
 
