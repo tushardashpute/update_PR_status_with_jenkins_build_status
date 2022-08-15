@@ -96,4 +96,17 @@ Save and build the job once.
 
 **7. create webhook in github repo to trigger jenkins job**
 
-Goto github repo --> settings --> webhooks 
+Goto github repo --> settings --> webhooks --> add webhooks
+
+<img width="1340" alt="image" src="https://user-images.githubusercontent.com/74225291/184625897-fca116b6-79bd-473f-985a-5a37f4002439.png">
+
+In Let me select individual events. --> select "Pull requests" option.
+
+<img width="1167" alt="image" src="https://user-images.githubusercontent.com/74225291/184626649-2440a8a0-cfb7-479e-819e-0e45e65c5985.png">
+
+
+Now check the number of ran jobs in Jenkins before raising any new PR, For me it was 6.
+
+<img width="1327" alt="image" src="https://user-images.githubusercontent.com/74225291/184626709-5fedbb69-a01b-4208-9478-8a06cb47f7da.png">
+
+Now lets create new branch and raise Pull Request.
