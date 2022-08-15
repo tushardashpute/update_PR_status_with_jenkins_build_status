@@ -53,4 +53,18 @@ IF you have proceed with the installed the suggested plugins during jenkins setu
 
 ![image](https://user-images.githubusercontent.com/74225291/184621140-88af2d87-6a5a-4525-966e-274a95b216d8.png)
 
+**4. create secret key with the PAT generated in step 3**
+
+Goto manage jenkins --> Manage Credentials --> Add credentials
+
+![image](https://user-images.githubusercontent.com/74225291/184621981-ec42c363-0ff3-4cc6-b789-1e3cf118465e.png)
+
+
+![image](https://user-images.githubusercontent.com/74225291/184622017-9dc64a2e-3dd6-44e4-9b29-ff90376e3f1e.png)
+
+
+![image](https://user-images.githubusercontent.com/74225291/184622058-4a4b83dd-df95-4070-9903-9746c365ad68.png)
+
+
+
 
