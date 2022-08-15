@@ -96,3 +96,4 @@ Save and build the job once.
 
 **7. create webhook in github repo to trigger jenkins job**
 
+Goto github repo --> settings --> webhooks 
