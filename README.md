@@ -45,7 +45,7 @@ IF you have proceed with the installed the suggested plugins during jenkins setu
 **3. Generate github Personal access tokens**
 
 
-<img width="1007" alt="image" src="https://user-images.githubusercontent.com/74225291/184621012-5a809495-4d7c-49d0-a74b-3c912706b444.png">
+![image](https://user-images.githubusercontent.com/74225291/184621012-5a809495-4d7c-49d0-a74b-3c912706b444.png)
 
 ![image](https://user-images.githubusercontent.com/74225291/184621031-41429845-2eb4-4d9b-bed1-e1a1f1fe8b31.png)
 
