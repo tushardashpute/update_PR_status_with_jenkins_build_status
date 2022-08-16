@@ -16,19 +16,19 @@ Steps:
 
 a. Install Java 
 
-  sudo amazon-linux-extras enable corretto8 -y
-  sudo yum install java-1.8.0-amazon-corretto* -y
-  sudo alternatives --config java
+    sudo amazon-linux-extras enable corretto8 -y
+    sudo yum install java-1.8.0-amazon-corretto* -y
+    sudo alternatives --config java
  
 b. Install Jenkins 
 
-  sudo wget -O /etc/yum.repos.d/jenkins.repo     https://pkg.jenkins.io/redhat-stable/jenkins.repo
-  sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
-  sudo yum upgrade
-  sudo yum install jenkins -y
-  sudo systemctl enable jenkins
-  sudo systemctl start jenkins
-  sudo systemctl status jenkins
+    sudo wget -O /etc/yum.repos.d/jenkins.repo     https://pkg.jenkins.io/redhat-stable/jenkins.repo
+    sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+    sudo yum upgrade
+    sudo yum install jenkins -y
+    sudo systemctl enable jenkins
+    sudo systemctl start jenkins
+    sudo systemctl status jenkins
 
 Now you can access jenkins on http://host_ip:8080 address.
 The initial admin password will be located at : "/var/lib/jenkins/secrets/initialAdminPassword"
