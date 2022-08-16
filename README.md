@@ -100,7 +100,7 @@ Goto github repo --> settings --> webhooks --> add webhooks
 
 <img width="1340" alt="image" src="https://user-images.githubusercontent.com/74225291/184625897-fca116b6-79bd-473f-985a-5a37f4002439.png">
 
-In Let me select individual events. --> select "Pull requests" option.
+In Let me select individual events. --> select "Pull requests" and "Push" option.
 
 <img width="1167" alt="image" src="https://user-images.githubusercontent.com/74225291/184626649-2440a8a0-cfb7-479e-819e-0e45e65c5985.png">
 
